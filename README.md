@@ -37,7 +37,7 @@ Devoloped by : P.Suganya
 
 Register No : 212220230049
 
-block.x=1023
+
 
 ```python
 #include "../common/common.h"
