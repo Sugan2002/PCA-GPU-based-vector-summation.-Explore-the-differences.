@@ -520,6 +520,4 @@ CPU : for each i in [0,256]: c[i] = a[i] * b[i] . Here, Each thread progresses a
 GPU : float32_times256 c,b,a; c = b * a; where c=b*a is one instruction, with three huge operands.
 
 ## Result:
-i) The block.x is set as 1023 & 1024 and the elapsed time obtained on Host and GPU is compared.
-
-(ii) The number of threads is set as 256 and the elapsed time on Host and GPU is obtained.
+    The block.x is set as 1023 & 1024 and the elapsed time obtained on Host and GPU is compared and the number of threads is set as 256 and the elapsed time on Host and GPU is obtained.
