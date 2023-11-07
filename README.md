@@ -9,25 +9,18 @@
 ## Procedure:
 Step 1 :
 Include the required files and library.
-
 Step 2 :
 Declare a function sumMatrixOnHost , to perform vector summation on the host side .
-
 Step 3 :
 Declare a function with __ global __ , which is a CUDA C keyword , to execute the function to perform vector summation on GPU .
-
 Step 4 :
 Declare Main method/function .
-
 Step 5 :
 In the Main function Set up device and data size of vector ,Allocate Host Memory and device global memory,Initialize data at host side and then add vector at host side ,transfer data from host to device.
-
 Step 6 :
 Invoke kernel at host side(1023,1024,256), check for kernel error and copy kernel result back to host side.
-
 Step 7 :
 Finally Free device global memory,host memory and reset device.
-
 Step 8 :
 Save and Run the Program.
 
