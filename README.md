@@ -1,6 +1,6 @@
 ### Exp No: 01
 ### Date: 23-08-2023
-# <p align="center">PCA-GPU-based-vector-summation.-Explore-the-differences</p>
+# <p align="center">GPU-based-vector-summation.-Explore-the-differences</p>
 ## Aim:
 (i) To modify or set the execution configuration of block.x as 1023 & 1024 and compare the elapsed time obtained on Host and GPU.
 
